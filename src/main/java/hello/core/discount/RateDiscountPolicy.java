@@ -5,6 +5,7 @@ import hello.core.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy{
 
+    //테스트 깃허브 업데이트
     private int discountPercent = 10;
 
     @Override
