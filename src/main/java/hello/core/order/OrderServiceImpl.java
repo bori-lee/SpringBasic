@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 //@RequiredArgsConstructor //final이 붙은걸 가지고, 생성자를 롬북이 만들어줌...
 public class OrderServiceImpl implements OrderService {
 
-    //생성자 주입(final 키워드넣어서 안바뀜... 생성자에서만 값을 세팅할수있따)
+    //생성자 주입(final 키워드넣어서 안바뀜... 생성자에서만 값을 세팅할수있따, 만약 롬북 어노테이션 사용 시 밑에 생성자 표기 안해도되고, 해당문구만 표기해도됨)
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
